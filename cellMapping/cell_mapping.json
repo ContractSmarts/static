@@ -2,28 +2,21 @@
   "model": [
     {
       "name": "capital_costs",
-      "keyword": "capital costs",
+      "keyword": "\"capital costs\"",
       "cell": "F9",
       "prompt": "",
       "filelist": ""
     },
     {
-      "name": "eligibility_basis",
-      "keyword": "eligibility basis",
-      "cell": "",
-      "prompt": "",
-      "filelist": ""
-    },
-    {
       "name": "energy_produced",
-      "keyword": "energy produced",
+      "keyword": "\"energy produced\"",
       "cell": "C22",
       "prompt": "",
       "filelist": ""
     },
     {
       "name": "energy_sale_revenue",
-      "keyword": "revenue - energy sale",
+      "keyword": "\"revenue - energy sale\"",
       "cell": "C25",
       "prompt": "",
       "filelist": ""
