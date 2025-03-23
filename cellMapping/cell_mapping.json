@@ -6,7 +6,7 @@
       "cell": "F9",
       "prompt": "\"\"\"\r\nSearch all relevant project documents (including but not limited to Interconnection Agreement, Site Control Documents, EPC Agreement, Construction Loan Agreement, Tax Equity Agreements, Certificates of Insurance, Appraisal and Cost Segregation Report, Project Development Agreement, Term Loan Agreements, Operations and Maintenance (O&M) and Asset Management Agreements, Permitting Documents, and Property Tax related documents) for instances of \"Project Capital Costs,\" \"Project Costs,\" or \"Development Costs.\"\r\n\r\nFor each document, output the information in JSON format as follows:\r\n\r\n```json\r\n[\r\n  {\r\n    \"document_name\": \"EPC Agreement\",\r\n    \"cost_values\": [\r\n      {\"term\": \"Project Costs\", \"value\": \"$75,000,000\"}\r\n    ]\r\n  },\r\n  {\r\n    \"document_name\": \"Construction Loan Agreement\",\r\n    \"cost_values\": [\r\n      {\"term\": \"Development Costs\", \"value\": \"$80,000,000\"}\r\n    ]\r\n  }\r\n]\r\n```\r\n\r\nIf multiple cost values appear within a single document, provide each separately with their contextual description and ensure monetary values clearly specify currency (e.g., USD, EUR).\r\n\"\"\"",
       "prompt_timestamp": "",
-      "filelist": "",
+      "filelist": [],
 	  "filelist_timestamp": "",
       "response": "",
       "response_timestamp": ""
@@ -17,7 +17,7 @@
       "cell": "",
       "prompt": "\"\"\"\r\nSearch all relevant project documents (including but not limited to Appraisal and Cost Segregation Report, Tax Equity Agreements, Membership Interest Purchase Agreement (MIPA), Certificates of Insurance (specifically for tax insurance), and Construction and Term Loan Agreements) for instances indicating \"Project Eligibility Basis\" for tax purposes. Look specifically for terms mentioning \"Tax,\" \"Depreciable Assets,\" or \"ITC\" as indicators of eligibility basis.\r\n\r\nFor each document, output the information in JSON format as follows:\r\n\r\n```json\r\n[\r\n  {\r\n    \"document_name\": \"Appraisal and Cost Segregation Report\",\r\n    \"eligibility_basis_values\": [\r\n      {\"term\": \"Depreciable Assets\", \"value\": \"$70,000,000\"}\r\n    ]\r\n  },\r\n  {\r\n    \"document_name\": \"Tax Equity Agreement\",\r\n    \"eligibility_basis_values\": [\r\n      {\"term\": \"ITC Eligibility Basis\", \"value\": \"$68,500,000\"}\r\n    ]\r\n  }\r\n]\r\n```\r\n\r\nIf multiple eligibility basis values appear within a single document, provide each separately with their contextual description and clearly specify currency (e.g., USD, EUR).\r\n\"\"\"",
       "prompt_timestamp": "",
-      "filelist": "",
+      "filelist": [],
 	  "filelist_timestamp": "",
       "response": "",
       "response_timestamp": ""
@@ -28,7 +28,7 @@
       "cell": "C22",
       "prompt": "\"\"\"\r\nSearch all relevant project documents (including but not limited to EPC Agreement, Independent Engineering Report, Appraisal, Interconnection Agreement, Power Purchasing Agreement (PPA), Site Control Documents, and Construction and Term Loan Agreements) for instances indicating \"Project Energy Production.\"\r\n\r\nLook specifically for terms like \"Electricity Produced,\" energy metrics (e.g., \"kWh,\" \"MWh,\" \"GWh,\" or ratios such as \"kWh\/kWp\"), and minimum or maximum energy production limits.\r\n\r\nFor each document, output the information in JSON format as follows:\r\n\r\n```json\r\n[\r\n  {\r\n    \"document_name\": \"Independent Engineering Report\",\r\n    \"energy_production_values\": [\r\n      {\"term\": \"Annual Electricity Produced\", \"value\": \"120,000 MWh\"}\r\n    ]\r\n  },\r\n  {\r\n    \"document_name\": \"Power Purchasing Agreement\",\r\n    \"energy_production_values\": [\r\n      {\"term\": \"Minimum Annual Production\", \"value\": \"110,000 MWh\"},\r\n      {\"term\": \"Maximum Annual Production\", \"value\": \"130,000 MWh\"}\r\n    ]\r\n  }\r\n]\r\n```\r\nIf multiple energy production values appear within a single document, provide each separately with their contextual description.\r\n\r\n\"\"\"",
       "prompt_timestamp": "",
-      "filelist": "",
+      "filelist": [],
 	  "filelist_timestamp": "",
       "response": "",
       "response_timestamp": ""
@@ -39,7 +39,7 @@
       "cell": "C25",
       "prompt": "\"\"\"\r\nSearch all relevant project documents (including but not limited to Power Purchasing Agreement (PPA), Appraisal Report, Certificates of Insurance (specifically for Business Interruption Insurance), Site Control Agreements, Operations and Maintenance (O&M) and Asset Management Agreements, and Financing Agreements (Construction Loan, Term Loan, Tax Equity)) for instances indicating \"Revenue - Energy Sale.\"\r\n\r\nSpecifically identify terms like \"PPA Price,\" \"Base Price,\" or similar pricing terms associated with energy sales, typically expressed in monetary units per energy unit (e.g., $\/MWh).\r\n\r\nFor each document, output the information in JSON format as follows:\r\n\r\n```json\r\n[\r\n  {\r\n    \"document_name\": \"Power Purchasing Agreement\",\r\n    \"energy_sale_revenue_values\": [\r\n      {\"term\": \"PPA Price\", \"value\": \"$40\/MWh\"}\r\n    ]\r\n  },\r\n  {\r\n    \"document_name\": \"Appraisal Report\",\r\n    \"energy_sale_revenue_values\": [\r\n      {\"term\": \"Base Price\", \"value\": \"$42\/MWh\"}\r\n    ]\r\n  }\r\n]\r\n```\r\n\r\nIf multiple revenue values appear within a single document, provide each separately with their contextual description and clearly specify currency (e.g., USD, EUR).\r\n\r\n\"\"\"",
       "prompt_timestamp": "",
-      "filelist": "",
+      "filelist": [],
 	  "filelist_timestamp": "",
       "response": "",
       "response_timestamp": ""
@@ -61,7 +61,7 @@
       "cell": "B52",
       "prompt": "",
       "prompt_timestamp": "",
-      "filelist": "",
+      "filelist": [],
 	  "filelist_timestamp": "",
       "response": "Well, hello there!",
       "response_timestamp": ""
