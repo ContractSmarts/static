@@ -59,7 +59,7 @@
       "name": "alfredo_test",
       "keyword": "\"alfredo_test\"",
       "cell": "B52",
-      "prompt": "\"\"\"\r\nSearch all relevant project documents (including but not limited to Power Purchasing Agreement (PPA), Appraisal Report, Certificates of Insurance (specifically for Business Interruption Insurance), Site Control Agreements, Operations and Maintenance (O&M) and Asset Management Agreements, and Financing Agreements (Construction Loan, Term Loan, Tax Equity)) for instances indicating \"Revenue - Energy Sale.\"\r\n\r\nSpecifically identify terms like \"PPA Price,\" \"Base Price,\" or similar pricing terms associated with energy sales, typically expressed in monetary units per energy unit (e.g., $\/MWh).\r\n\r\nFor each document, output the information in JSON format as follows:\r\n\r\n```json\r\n[\r\n  {\r\n    \"document_name\": \"Power Purchasing Agreement\",\r\n    \"energy_sale_revenue_values\": [\r\n      {\"term\": \"PPA Price\", \"value\": \"$40\/MWh\"}\r\n    ]\r\n  },\r\n  {\r\n    \"document_name\": \"Appraisal Report\",\r\n    \"energy_sale_revenue_values\": [\r\n      {\"term\": \"Base Price\", \"value\": \"$42\/MWh\"}\r\n    ]\r\n  }\r\n]\r\n```\r\n\r\nIf multiple revenue values appear within a single document, provide each separately with their contextual description and clearly specify currency (e.g., USD, EUR).\r\n\r\n\"\"\"",
+      "prompt": "",
       "prompt_timestamp": "",
       "filelist": "",
 	  "filelist_timestamp": "",
